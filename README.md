@@ -1,55 +1,49 @@
-<h1 align="center">👋 Oi! Eu sou o Gustavo, prazer!</h1>
+<div align="center">
 
-<p align="center">
-  💻 Estudante de Ciência da Computação na UNIFAL - MG (Alfenas)<br>
-  🌐 Gosto muito de front-end, interfaces bonitas e desenvolvimento de games<br>
-  🎮 Viciado em jogos, RPG e música pop
-</p>
+<img src="./dist/banner.svg" width="100%" alt="Gustavo Zimmermann · Ciência da Computação na UNIFAL-MG · front-end, interfaces e game dev">
 
----
+<a href="mailto:gustavozimmermannow@gmail.com"><img src="https://img.shields.io/badge/Email-gustavozimmermannow%40gmail.com-ff4fa3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/guxzi"><img src="https://img.shields.io/badge/GitHub-guxzi-9b5cff?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
-### ✨ Sobre mim
+</div>
 
-Eu sou o Gustavo Zimmermann (mas pode me chamar de **Gu** mesmo)!  
-Atualmente estou cursando Ciência da Computação na UNIFAL e sempre gostei de misturar tecnologia com criatividade. Gosto de fuçar de tudo um pouco, mas tenho um carinho especial por front-end e projetos com uma pegada visual forte.
+## Sobre mim
 
-Costumo ser bem curioso quando se trata de tecnologia e tenho muito interesse em descobrir áreas que ainda não tinha ideia que existiam.
+Estudo Ciência da Computação na Universidade Federal de Alfenas (UNIFAL-MG). Meu foco é unir tecnologia e criatividade: interfaces bem cuidadas no front-end e jogos com identidade visual forte.
 
----
+Fora do código: música pop o tempo todo, leitura e RPG de mesa, jogando, mestrando ou criando sistemas.
 
-### 🧠 Linguagens e tecnologias que curto
+<img src="./dist/ficha.svg" width="100%" alt="Ficha de personagem estilo D&D gerada a partir das estatísticas do GitHub">
 
-- 🌐 **HTML**, **CSS** — meus xodós!
-- 🐍 Um pouco de **Python**
-- 🧠 Algumas experiências com **C++**, **Dart**, **PHP**
-- 🤖 Curioso com **IA**, especialmente para jogos e automações
-- 🧩 Adoro aprender coisas novas, mesmo que seja só por hobby
+## Em desenvolvimento
 
----
+### Vilarejo Grego · Unity 6 · C#
 
-### 🚀 Projetos que me orgulho
+Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *ActRaiser*, ambientado na mitologia grega. Projeto em equipe da disciplina de Computação Gráfica.
 
-- **AgroPay** – Criado para a feira de ciências no IF durante o ensino médio, esse sistema ajuda a automatizar o pagamento de trabalhadores rurais, cuidando dos cálculos e relatórios 🧾🚜
-- **Dungeons and Newbies** – Meu Projeto Integrador focado em RPG! Uma plataforma que ajuda iniciantes a entrar no mundo do RPG usando referências da cultura pop e regras do D&D 🎲✨
+- O jogador controla uma ninfa que orienta a construção do vilarejo, enquanto os aldeões trabalham e rezam para gerar fé
+- A fé alimenta poderes divinos (Zeus, Poseidon, Atena) contra ondas de criaturas mitológicas, cada uma com sua mecânica
+- Modelos e animações feitos no Blender pelo grupo, com exportação automatizada para o Unity
 
----
+<sub>Repositório privado durante o desenvolvimento.</sub>
 
-### 🎮 O que me move
+## Projetos
 
-- 🎧 Música o tempo todo (sério, o tempo todo mesmo)
-- 📚 Leitura pra alimentar a imaginação
-- 🕹️ Games e RPGs de mesa — seja jogando, mestrando ou criando sistemas
-- 🌌 Imaginar possibilidades novas com tecnologia (inclusive IA)
+| Projeto | Sobre |
+| --- | --- |
+| **Dungeons and Newbies** | Projeto Integrador: plataforma que apresenta o RPG de mesa a iniciantes, usando referências da cultura pop e as regras de D&D. |
+| **AgroPay** | Sistema criado para a feira de ciências do IF que automatiza o pagamento de trabalhadores rurais, com cálculos e relatórios. |
 
----
+## Tecnologias
 
-### 📫 Vamos conversar?
+<img src="https://skillicons.dev/icons?i=html,css,python,cpp,java,cs,dart,php,unity,git,github,vscode&perline=12" alt="HTML, CSS, Python, C++, Java, C#, Dart, PHP, Unity, Git, GitHub, VS Code">
 
-Se quiser trocar ideia, colaborar ou simplesmente bater papo sobre alguma dessas coisas, pode me chamar!  
-🔗 [Meu GitHub](https://github.com/guxzi)
+## Formação
+
+**Bacharelado em Ciência da Computação** · Universidade Federal de Alfenas (UNIFAL-MG) · 2025 – atual
 
 ---
 
-<p align="center">
-  <i>"Você é o CSS do meu HTML!"</i> 💖🛠️
-</p>
+<img src="./dist/jornada.svg" width="100%" alt="Um bardo em pixel art atravessa o gráfico de contribuições e cada dia de código acende como uma nota musical">
+
+<div align="center"><sub>As artes acima são geradas por código (<a href="./scripts/gerar_svgs.py">scripts/gerar_svgs.py</a>) e atualizadas todo dia por um GitHub Action.</sub></div>
