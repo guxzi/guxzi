@@ -17,12 +17,13 @@ Fora do código: música pop o tempo todo, leitura e RPG de mesa, jogando, mestr
 
 ## Em desenvolvimento
 
-### Vilarejo Grego · Unity 6 · C#
+### The Guardian Nymph · Unity 6 · C#
 
 Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *ActRaiser*, ambientado na mitologia grega. Projeto em equipe da disciplina de Computação Gráfica.
 
-- O jogador controla uma ninfa que orienta a construção do vilarejo, enquanto os aldeões trabalham e rezam para gerar fé
-- A fé alimenta poderes divinos (Zeus, Poseidon, Atena) contra ondas de criaturas mitológicas, cada uma com sua mecânica
+- Uma ninfa guardiã orienta a construção do vilarejo, enquanto os aldeões trabalham e rezam para gerar fé
+- Magias desenhadas com o mouse (Zeus, Poseidon, Atena), com reconhecimento de formas feito do zero, contra ondas de criaturas mitológicas
+- Templos dos deuses oferecem bênçãos que mudam a partida, no estilo de *Hades*
 - Modelos e animações feitos no Blender pelo grupo, com exportação automatizada para o Unity
 
 <sub>Repositório privado durante o desenvolvimento.</sub>
