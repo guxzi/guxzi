@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="356" viewBox="0 0 840 356" role="img">
+<defs>
+  <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#140f24"/><stop offset="1" stop-color="#0d1326"/>
+  </linearGradient>
+  <linearGradient id="pop" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ff4fa3"/><stop offset=".55" stop-color="#9b5cff"/><stop offset="1" stop-color="#3ddcff"/>
+  </linearGradient>
+  <linearGradient id="popv" x1="0" y1="1" x2="0" y2="0">
+    <stop offset="0" stop-color="#9b5cff"/><stop offset=".6" stop-color="#ff4fa3"/><stop offset="1" stop-color="#ffd166"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: Consolas, 'SFMono-Regular', 'DejaVu Sans Mono', monospace; }
+  @keyframes pisca { 0%,100% { opacity: .15 } 50% { opacity: 1 } }
+  @keyframes onda { from { transform: translateX(0) } to { transform: translateX(24px) } }
+  .onda { animation: onda 2.4s linear infinite; }
+  @keyframes bolha { 0% { transform: translateY(0); opacity: 0 } 15% { opacity: .75 } 100% { transform: translateY(-34px); opacity: 0 } }
+  .bolha { opacity: 0; animation: bolha 2.6s ease-in infinite; }
+  @keyframes aura { 0%,100% { opacity: .5 } 50% { opacity: 1 } }
+  .aura { animation: aura 3s ease-in-out infinite; }
+  @keyframes surge { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: translateY(0) } }
+  .surge { opacity: 0; animation: surge .6s ease-out forwards; }
+  @keyframes reflexo { 0%,55% { transform: translateX(-80px) } 100% { transform: translateX(200px) } }
+  .reflexo { animation: reflexo 4.5s ease-in-out infinite; }
+  @keyframes brilho { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+  .brilho { animation: brilho 2.4s ease-in-out infinite; }
+  @keyframes enche { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+  .progresso { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: enche 1.4s cubic-bezier(.2,.8,.2,1) .8s forwards; }
+</style>
+<rect x="1" y="1" width="838" height="354" rx="14" fill="url(#fundo)" stroke="#2e2650" stroke-width="2"/>
+<circle cx="802" cy="237" r="1.0" fill="#f4effa" style="animation: pisca 2.2s ease-in-out 0.00s infinite; opacity:.2"/>
+<circle cx="464" cy="35" r="1.5" fill="#f4effa" style="animation: pisca 2.8s ease-in-out 0.37s infinite; opacity:.2"/>
+<circle cx="302" cy="337" r="2.0" fill="#f4effa" style="animation: pisca 3.4s ease-in-out 0.74s infinite; opacity:.2"/>
+<circle cx="60" cy="183" r="1.0" fill="#f4effa" style="animation: pisca 4.0s ease-in-out 1.11s infinite; opacity:.2"/>
+<circle cx="186" cy="261" r="1.5" fill="#f4effa" style="animation: pisca 4.6s ease-in-out 1.48s infinite; opacity:.2"/>
+<circle cx="744" cy="227" r="2.0" fill="#f4effa" style="animation: pisca 2.2s ease-in-out 1.85s infinite; opacity:.2"/>
+<circle cx="454" cy="17" r="1.0" fill="#f4effa" style="animation: pisca 2.8s ease-in-out 2.22s infinite; opacity:.2"/>
+<circle cx="116" cy="303" r="1.5" fill="#f4effa" style="animation: pisca 3.4s ease-in-out 2.59s infinite; opacity:.2"/>
+<circle cx="658" cy="69" r="2.0" fill="#f4effa" style="animation: pisca 4.0s ease-in-out 2.96s infinite; opacity:.2"/>
+<circle cx="96" cy="339" r="1.0" fill="#f4effa" style="animation: pisca 4.6s ease-in-out 3.33s infinite; opacity:.2"/>
+<circle cx="798" cy="265" r="1.5" fill="#f4effa" style="animation: pisca 2.2s ease-in-out 3.70s infinite; opacity:.2"/>
+<circle cx="716" cy="159" r="2.0" fill="#f4effa" style="animation: pisca 2.8s ease-in-out 4.07s infinite; opacity:.2"/>
+<circle cx="618" cy="69" r="1.0" fill="#f4effa" style="animation: pisca 3.4s ease-in-out 4.44s infinite; opacity:.2"/>
+<circle cx="120" cy="59" r="1.5" fill="#f4effa" style="animation: pisca 4.0s ease-in-out 4.81s infinite; opacity:.2"/>
+<text x="28" y="40" font-size="12" font-weight="700" letter-spacing="4" fill="#ffd166" class="brilho">MOCHILA DO AVENTUREIRO</text>
+<text x="28" y="64" font-size="14" fill="#a99fc6">Tudo o que juntei em <tspan fill="#f4effa" font-weight="700">30 contribuições</tspan> no último ano</text>
+<g class="surge" style="animation-delay: 0.10s"><rect x="28" y="82" width="100" height="134" rx="12" fill="#140f24" stroke="#2e2650" stroke-width="2"/><text x="118" y="100" text-anchor="end" font-size="11" font-weight="700" fill="#a99fc6">29%</text><defs><clipPath id="frasco0"><circle cx="78" cy="140" r="22"/></clipPath>
+  <radialGradient id="aura0"><stop offset="0" stop-color="#7355dd" stop-opacity=".45"/><stop offset="1" stop-color="#7355dd" stop-opacity="0"/></radialGradient></defs>
+<circle class="aura" cx="78" cy="140" r="40" fill="url(#aura0)" style="animation-delay: 0.0s"/>
+<g clip-path="url(#frasco0)">
+  <rect x="54" y="116" width="48" height="48" fill="#ffffff" fill-opacity=".04"/>
+  <path class="onda" d="M30 123.2 q6 -3 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 V166 H30 Z" fill="#7355dd" style="animation-delay: -0.0s"/>
+  <rect x="54" y="126.2" width="48" height="48" fill="#000" fill-opacity=".18"/>
+  <circle class="bolha" cx="66" cy="159" r="1.6" fill="#fff" style="animation-delay: 0.0s"/><circle class="bolha" cx="77" cy="159" r="2.2" fill="#fff" style="animation-delay: 0.7s"/><circle class="bolha" cx="88" cy="159" r="1.6" fill="#fff" style="animation-delay: 1.4s"/>
+</g>
+<rect x="71" y="101" width="14" height="17" fill="#ffffff" fill-opacity=".05" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.2"/>
+<circle cx="78" cy="140" r="24" fill="none" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.5"/>
+<rect x="68" y="92" width="20" height="11" rx="3" fill="#8a5a3c" stroke="#5e3b24" stroke-width="1.2"/>
+<path d="M63 131 a17 17 0 0 1 9 -11" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/><text x="78" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#f4effa">C#</text></g>
+<g class="surge" style="animation-delay: 0.22s"><rect x="140" y="82" width="100" height="134" rx="12" fill="#140f24" stroke="#2e2650" stroke-width="2"/><text x="230" y="100" text-anchor="end" font-size="11" font-weight="700" fill="#a99fc6">20%</text><defs><clipPath id="frasco1"><circle cx="190" cy="140" r="22"/></clipPath>
+  <radialGradient id="aura1"><stop offset="0" stop-color="#f34b7d" stop-opacity=".45"/><stop offset="1" stop-color="#f34b7d" stop-opacity="0"/></radialGradient></defs>
+<circle class="aura" cx="190" cy="140" r="40" fill="url(#aura1)" style="animation-delay: 0.6s"/>
+<g clip-path="url(#frasco1)">
+  <rect x="166" y="116" width="48" height="48" fill="#ffffff" fill-opacity=".04"/>
+  <path class="onda" d="M142 131.5 q6 -3 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 V166 H142 Z" fill="#f34b7d" style="animation-delay: -0.4s"/>
+  <rect x="166" y="134.5" width="48" height="48" fill="#000" fill-opacity=".18"/>
+  <circle class="bolha" cx="178" cy="159" r="1.6" fill="#fff" style="animation-delay: 0.5s"/><circle class="bolha" cx="189" cy="159" r="2.2" fill="#fff" style="animation-delay: 1.2s"/><circle class="bolha" cx="200" cy="159" r="1.6" fill="#fff" style="animation-delay: 1.9s"/>
+</g>
+<rect x="183" y="101" width="14" height="17" fill="#ffffff" fill-opacity=".05" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.2"/>
+<circle cx="190" cy="140" r="24" fill="none" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.5"/>
+<rect x="180" y="92" width="20" height="11" rx="3" fill="#8a5a3c" stroke="#5e3b24" stroke-width="1.2"/>
+<path d="M175 131 a17 17 0 0 1 9 -11" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/><text x="190" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#f4effa">C++</text></g>
+<g class="surge" style="animation-delay: 0.34s"><rect x="252" y="82" width="100" height="134" rx="12" fill="#140f24" stroke="#2e2650" stroke-width="2"/><text x="342" y="100" text-anchor="end" font-size="11" font-weight="700" fill="#a99fc6">20%</text><defs><clipPath id="frasco2"><circle cx="302" cy="140" r="22"/></clipPath>
+  <radialGradient id="aura2"><stop offset="0" stop-color="#3572A5" stop-opacity=".45"/><stop offset="1" stop-color="#3572A5" stop-opacity="0"/></radialGradient></defs>
+<circle class="aura" cx="302" cy="140" r="40" fill="url(#aura2)" style="animation-delay: 1.2s"/>
+<g clip-path="url(#frasco2)">
+  <rect x="278" y="116" width="48" height="48" fill="#ffffff" fill-opacity=".04"/>
+  <path class="onda" d="M254 131.7 q6 -3 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 V166 H254 Z" fill="#3572A5" style="animation-delay: -0.8s"/>
+  <rect x="278" y="134.7" width="48" height="48" fill="#000" fill-opacity=".18"/>
+  <circle class="bolha" cx="290" cy="159" r="1.6" fill="#fff" style="animation-delay: 1.0s"/><circle class="bolha" cx="301" cy="159" r="2.2" fill="#fff" style="animation-delay: 1.7s"/><circle class="bolha" cx="312" cy="159" r="1.6" fill="#fff" style="animation-delay: 2.4s"/>
+</g>
+<rect x="295" y="101" width="14" height="17" fill="#ffffff" fill-opacity=".05" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.2"/>
+<circle cx="302" cy="140" r="24" fill="none" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.5"/>
+<rect x="292" y="92" width="20" height="11" rx="3" fill="#8a5a3c" stroke="#5e3b24" stroke-width="1.2"/>
+<path d="M287 131 a17 17 0 0 1 9 -11" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/><text x="302" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#f4effa">Python</text></g>
+<g class="surge" style="animation-delay: 0.46s"><rect x="364" y="82" width="100" height="134" rx="12" fill="#140f24" stroke="#2e2650" stroke-width="2"/><text x="454" y="100" text-anchor="end" font-size="11" font-weight="700" fill="#a99fc6">20%</text><defs><clipPath id="frasco3"><circle cx="414" cy="140" r="22"/></clipPath>
+  <radialGradient id="aura3"><stop offset="0" stop-color="#b07219" stop-opacity=".45"/><stop offset="1" stop-color="#b07219" stop-opacity="0"/></radialGradient></defs>
+<circle class="aura" cx="414" cy="140" r="40" fill="url(#aura3)" style="animation-delay: 1.8s"/>
+<g clip-path="url(#frasco3)">
+  <rect x="390" y="116" width="48" height="48" fill="#ffffff" fill-opacity=".04"/>
+  <path class="onda" d="M366 131.7 q6 -3 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 V166 H366 Z" fill="#b07219" style="animation-delay: -1.2s"/>
+  <rect x="390" y="134.7" width="48" height="48" fill="#000" fill-opacity=".18"/>
+  <circle class="bolha" cx="402" cy="159" r="1.6" fill="#fff" style="animation-delay: 1.5s"/><circle class="bolha" cx="413" cy="159" r="2.2" fill="#fff" style="animation-delay: 2.2s"/><circle class="bolha" cx="424" cy="159" r="1.6" fill="#fff" style="animation-delay: 2.9s"/>
+</g>
+<rect x="407" y="101" width="14" height="17" fill="#ffffff" fill-opacity=".05" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.2"/>
+<circle cx="414" cy="140" r="24" fill="none" stroke="#cfc6ea" stroke-opacity=".6" stroke-width="2.5"/>
+<rect x="404" y="92" width="20" height="11" rx="3" fill="#8a5a3c" stroke="#5e3b24" stroke-width="1.2"/>
+<path d="M399 131 a17 17 0 0 1 9 -11" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/><text x="414" y="202" text-anchor="middle" font-size="13" font-weight="700" fill="#f4effa">Java</text></g>
+<g class="surge" style="animation-delay: .55s"><rect x="480" y="82" width="332" height="134" rx="12" fill="#140f24" stroke="#2e2650" stroke-width="2"/>
+<g transform="translate(504,102)"><circle r="10" fill="#ffd166"/><circle r="6.5" fill="none" stroke="#b8862b" stroke-width="1.6"/><rect x="-1.5" y="-4" width="3" height="8" rx="1" fill="#b8862b"/><circle cx="-4" cy="-5" r="1.6" fill="#fff6d6"/></g>
+<text x="526" y="107" font-size="13" fill="#a99fc6">Moedas de commit</text><text x="796" y="108" text-anchor="end" font-size="17" font-weight="800" fill="#f4effa">21</text>
+<rect x="496" y="117" width="300" height="1" fill="#2e2650"/>
+<g transform="translate(504,134)"><rect x="-8" y="-7" width="16" height="14" rx="2" fill="#f1e2c0"/><rect x="-11" y="-9" width="4" height="18" rx="2" fill="#c9a96e"/><rect x="7" y="-9" width="4" height="18" rx="2" fill="#c9a96e"/><path d="M-4 -3h8M-4 0.5h8M-4 4h5" stroke="#9c7b45" stroke-width="1.4" stroke-linecap="round"/></g>
+<text x="526" y="139" font-size="13" fill="#a99fc6">Pergaminhos (repositórios)</text><text x="796" y="140" text-anchor="end" font-size="17" font-weight="800" fill="#f4effa">10</text>
+<rect x="496" y="149" width="300" height="1" fill="#2e2650"/>
+<g transform="translate(504,166)"><path d="M-6 6 L-8 13 L-3 10.5 L0 14 L0 7 Z M6 6 L8 13 L3 10.5 L0 14 L0 7 Z" fill="#9b5cff"/><circle r="9" fill="#ff4fa3"/><polygon points="0.0,-5.5 1.4,-1.9 5.2,-1.7 2.3,0.7 3.2,4.4 0.0,2.4 -3.2,4.4 -2.3,0.7 -5.2,-1.7 -1.4,-1.9" fill="#fff"/></g>
+<text x="526" y="171" font-size="13" fill="#a99fc6">Selos de guilda (PRs e issues)</text><text x="796" y="172" text-anchor="end" font-size="17" font-weight="800" fill="#f4effa">6</text>
+<rect x="496" y="181" width="300" height="1" fill="#2e2650"/>
+<g transform="translate(504,198)"><polygon points="0.0,-10.5 2.7,-3.7 10.0,-3.2 4.4,1.4 6.2,8.5 0.0,4.6 -6.2,8.5 -4.4,1.4 -10.0,-3.2 -2.7,-3.7" fill="#ffd166" stroke="#b8862b" stroke-width="1.2" stroke-linejoin="round"/></g>
+<text x="526" y="203" font-size="13" fill="#a99fc6">Fama (estrelas e seguidores)</text><text x="796" y="204" text-anchor="end" font-size="17" font-weight="800" fill="#f4effa">0</text>
+</g>
+<text x="28" y="246" font-size="12" font-weight="800" letter-spacing="3" fill="#ffd166">CONQUISTAS</text><text x="150" y="246" font-size="12" fill="#a99fc6">3 de 6 desbloqueadas</text>
+<defs><linearGradient id="ouro" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset=".5" stop-color="#ffd166"/><stop offset="1" stop-color="#c98a1c"/></linearGradient></defs>
+<g class="surge" style="animation-delay: 0.90s"><rect x="28" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#ffd166" stroke-opacity="1" stroke-width="1.6"/><defs><clipPath id="cq0"><rect x="28" y="258" width="123" height="66" rx="10"/></clipPath></defs><g clip-path="url(#cq0)"><g class="reflexo" style="animation-delay: 0.0s"><rect x="28" y="248" width="26" height="90" fill="#fff" fill-opacity=".09" transform="skewX(-20)"/></g></g><circle cx="50" cy="290" r="14" fill="url(#ouro)" stroke="#c98a1c" stroke-width="1.5"/><polygon points="50.0,283.0 51.8,287.6 56.7,287.8 52.9,290.9 54.1,295.7 50.0,293.0 45.9,295.7 47.1,290.9 43.3,287.8 48.2,287.6" fill="#7a4d0b"/><text x="72" y="283" font-size="12" font-weight="800" fill="#f4effa">Aventureiro</text><text x="72" y="297" font-size="9.5" fill="#a99fc6">1 repositório</text><text x="72" y="312" font-size="10" font-weight="700" fill="#ffd166">✓ desbloqueada</text></g>
+<g class="surge" style="animation-delay: 1.00s"><rect x="159" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#ffd166" stroke-opacity="1" stroke-width="1.6"/><defs><clipPath id="cq1"><rect x="159" y="258" width="123" height="66" rx="10"/></clipPath></defs><g clip-path="url(#cq1)"><g class="reflexo" style="animation-delay: 0.7s"><rect x="159" y="248" width="26" height="90" fill="#fff" fill-opacity=".09" transform="skewX(-20)"/></g></g><circle cx="181" cy="290" r="14" fill="url(#ouro)" stroke="#c98a1c" stroke-width="1.5"/><polygon points="181.0,283.0 182.8,287.6 187.7,287.8 183.9,290.9 185.1,295.7 181.0,293.0 176.9,295.7 178.1,290.9 174.3,287.8 179.2,287.6" fill="#7a4d0b"/><text x="203" y="283" font-size="12" font-weight="800" fill="#f4effa">Poliglota</text><text x="203" y="297" font-size="9.5" fill="#a99fc6">5 linguagens</text><text x="203" y="312" font-size="10" font-weight="700" fill="#ffd166">✓ desbloqueada</text></g>
+<g class="surge" style="animation-delay: 1.10s"><rect x="290" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#ffd166" stroke-opacity="1" stroke-width="1.6"/><defs><clipPath id="cq2"><rect x="290" y="258" width="123" height="66" rx="10"/></clipPath></defs><g clip-path="url(#cq2)"><g class="reflexo" style="animation-delay: 1.4s"><rect x="290" y="248" width="26" height="90" fill="#fff" fill-opacity=".09" transform="skewX(-20)"/></g></g><circle cx="312" cy="290" r="14" fill="url(#ouro)" stroke="#c98a1c" stroke-width="1.5"/><polygon points="312.0,283.0 313.8,287.6 318.7,287.8 314.9,290.9 316.1,295.7 312.0,293.0 307.9,295.7 309.1,290.9 305.3,287.8 310.2,287.6" fill="#7a4d0b"/><text x="334" y="283" font-size="12" font-weight="800" fill="#f4effa">Arquivista</text><text x="334" y="297" font-size="9.5" fill="#a99fc6">10 repositórios</text><text x="334" y="312" font-size="10" font-weight="700" fill="#ffd166">✓ desbloqueada</text></g>
+<g class="surge" style="animation-delay: 1.20s"><rect x="421" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#2e2650" stroke-opacity="0.9" stroke-width="2"/><circle cx="443" cy="290" r="14" fill="#2e2650"/><rect x="437" y="289" width="12" height="9" rx="2" fill="#a99fc6"/><path d="M439.5 289 v-3 a3.5 3.5 0 0 1 7 0 v3" fill="none" stroke="#a99fc6" stroke-width="2"/><text x="465" y="283" font-size="12" font-weight="800" fill="#a99fc6">Constante</text><text x="465" y="297" font-size="9.5" fill="#a99fc6">7 dias seguidos</text><rect x="465" y="306" width="40" height="5" rx="2.5" fill="#2e2650"/><rect class="progresso" x="465" y="306" width="17" height="5" rx="2.5" fill="url(#pop)"/><text x="537" y="312" text-anchor="end" font-size="9.5" fill="#a99fc6">3/7</text></g>
+<g class="surge" style="animation-delay: 1.30s"><rect x="552" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#2e2650" stroke-opacity="0.9" stroke-width="2"/><circle cx="574" cy="290" r="14" fill="#2e2650"/><rect x="568" y="289" width="12" height="9" rx="2" fill="#a99fc6"/><path d="M570.5 289 v-3 a3.5 3.5 0 0 1 7 0 v3" fill="none" stroke="#a99fc6" stroke-width="2"/><text x="596" y="283" font-size="12" font-weight="800" fill="#a99fc6">Em guilda</text><text x="596" y="297" font-size="9.5" fill="#a99fc6">10 PRs ou issues</text><rect x="596" y="306" width="40" height="5" rx="2.5" fill="#2e2650"/><rect class="progresso" x="596" y="306" width="24" height="5" rx="2.5" fill="url(#pop)"/><text x="668" y="312" text-anchor="end" font-size="9.5" fill="#a99fc6">6/10</text></g>
+<g class="surge" style="animation-delay: 1.40s"><rect x="683" y="258" width="123" height="66" rx="10" fill="#140f24" stroke="#2e2650" stroke-opacity="0.9" stroke-width="2"/><circle cx="705" cy="290" r="14" fill="#2e2650"/><rect x="699" y="289" width="12" height="9" rx="2" fill="#a99fc6"/><path d="M701.5 289 v-3 a3.5 3.5 0 0 1 7 0 v3" fill="none" stroke="#a99fc6" stroke-width="2"/><text x="727" y="283" font-size="12" font-weight="800" fill="#a99fc6">Centenário</text><text x="727" y="297" font-size="9.5" fill="#a99fc6">100 contribuições</text><rect x="727" y="306" width="40" height="5" rx="2.5" fill="#2e2650"/><rect class="progresso" x="727" y="306" width="12" height="5" rx="2.5" fill="url(#pop)"/><text x="799" y="312" text-anchor="end" font-size="9.5" fill="#a99fc6">30/100</text></g>
+<text x="812" y="344" text-anchor="end" font-size="10.5" fill="#a99fc6">itens e conquistas calculados dos dados públicos do GitHub · atualizada em 09/11/2026</text>
+</svg>
