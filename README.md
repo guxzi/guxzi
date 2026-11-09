@@ -13,7 +13,7 @@ Estudo Ciência da Computação na Universidade Federal de Alfenas (UNIFAL-MG). 
 
 Fora do código: música pop o tempo todo, leitura e RPG de mesa, jogando, mestrando ou criando sistemas.
 
-<img src="./dist/ficha.svg" width="100%" alt="Ficha de personagem estilo D&D gerada a partir das estatísticas do GitHub">
+<img src="./dist/mochila.svg" width="100%" alt="Mochila do aventureiro: as linguagens mais usadas viram poções, os números do GitHub viram recursos e conquistas desbloqueáveis">
 
 ## Em desenvolvimento
 
@@ -32,12 +32,12 @@ Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *A
 
 | Projeto | Sobre |
 | --- | --- |
-| **Dungeons and Newbies** | Projeto Integrador: plataforma que apresenta o RPG de mesa a iniciantes, usando referências da cultura pop e as regras de D&D. |
+| **Dungeons and Newbies** | Projeto Integrador do ensino médio, refeito do zero em 2026: guia interativo de D&D para iniciantes, com rolador de dados, simulador de testes, quizzes com ranking e mural do Mestre. Node.js, Express e MySQL. |
 | **AgroPay** | Sistema criado para a feira de ciências do IF que automatiza o pagamento de trabalhadores rurais, com cálculos e relatórios. |
 
 ## Tecnologias
 
-<img src="https://skillicons.dev/icons?i=html,css,python,cpp,java,cs,dart,php,unity,git,github,vscode&perline=12" alt="HTML, CSS, Python, C++, Java, C#, Dart, PHP, Unity, Git, GitHub, VS Code">
+<img src="https://skillicons.dev/icons?i=html,css,js,python,cpp,java,cs,dart,php,nodejs,express,mysql,unity,git,github,vscode&perline=16" alt="HTML, CSS, JavaScript, Python, C++, Java, C#, Dart, PHP, Node.js, Express, MySQL, Unity, Git, GitHub, VS Code">
 
 ## Formação
 
@@ -45,6 +45,6 @@ Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *A
 
 ---
 
-<img src="./dist/jornada.svg" width="100%" alt="Um bardo em pixel art atravessa o gráfico de contribuições e cada dia de código acende como uma nota musical">
+<img src="./dist/jornada.svg" width="100%" alt="Dois dragõezinhos em pixel art, um preto e um branco, voam sobre o gráfico de contribuições e cada dia de código acende com uma baforada de fogo">
 
 <div align="center"><sub>As artes acima são geradas por código (<a href="./scripts/gerar_svgs.py">scripts/gerar_svgs.py</a>) e atualizadas todo dia por um GitHub Action.</sub></div>
