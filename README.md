@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="./dist/banner.svg" width="100%" alt="Gustavo Zimmermann · Ciência da Computação na UNIFAL-MG · front-end, interfaces e game dev">
+<img src="./dist/banner.svg" width="100%" alt="Gustavo Zimmermann · Ciência da Computação na UNIFAL-MG · front-end, interfaces e game dev. Noite em Exandria com as duas luas, um mini Essek e um mini Caleb flutuando">
 
-<a href="mailto:gustavozimmermannow@gmail.com"><img src="https://img.shields.io/badge/Email-gustavozimmermannow%40gmail.com-ff4fa3?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://github.com/guxzi"><img src="https://img.shields.io/badge/GitHub-guxzi-9b5cff?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="mailto:gustavozimmermannow@gmail.com"><img src="https://img.shields.io/badge/Email-gustavozimmermannow%40gmail.com-b794ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/guxzi"><img src="https://img.shields.io/badge/GitHub-guxzi-2f8f84?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 
 </div>
 
@@ -11,9 +11,9 @@
 
 Estudo Ciência da Computação na Universidade Federal de Alfenas (UNIFAL-MG). Meu foco é unir tecnologia e criatividade: interfaces bem cuidadas no front-end e jogos com identidade visual forte.
 
-Fora do código: música pop o tempo todo, leitura e RPG de mesa, jogando, mestrando ou criando sistemas.
+Fora do código: Critical Role toda semana (Mighty Nein no coração, com Essek, Caleb e Jester de favoritos), leitura e RPG de mesa, jogando, mestrando ou criando sistemas.
 
-<img src="./dist/mochila.svg" width="100%" alt="Mochila do aventureiro: as linguagens mais usadas viram poções, os números do GitHub viram recursos e conquistas desbloqueáveis">
+<img src="./dist/mochila.svg" width="100%" alt="Bolsa de componentes: as linguagens mais usadas viram poções, os números do GitHub viram recursos e conquistas desbloqueáveis, com uma mini Jester acenando com o pirulito">
 
 ## Em desenvolvimento
 
@@ -45,6 +45,4 @@ Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *A
 
 ---
 
-<img src="./dist/jornada.svg" width="100%" alt="Dois dragõezinhos em pixel art, um preto e um branco, voam sobre o gráfico de contribuições e cada dia de código acende com uma baforada de fogo">
-
-<div align="center"><sub>As artes acima são geradas por código (<a href="./scripts/gerar_svgs.py">scripts/gerar_svgs.py</a>) e atualizadas todo dia por um GitHub Action.</sub></div>
+<img src="./dist/jornada.svg" width="100%" alt="Mini Caleb e mini Essek flutuam sobre o gráfico de contribuições rumo ao Beacon, e cada dia de código acende com uma faísca de magia">
