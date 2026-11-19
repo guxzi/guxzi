@@ -32,6 +32,7 @@ Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *A
 
 | Projeto | Sobre |
 | --- | --- |
+| **[DMAegis](https://github.com/guxzi/dmaegis)** | Escudo do mestre digital, em português, para D&D 5e (2024) e Daggerheart: caderno da campanha, preparo de sessão pelo método Lazy DM, escudo ao vivo com as regras do sistema da mesa, galeria de imagens ligadas aos NPCs e locais e uma janela de projeção para os jogadores. .NET 10, Dapper, MySQL e React. |
 | **Dungeons and Newbies** | Projeto Integrador do ensino médio, refeito do zero em 2026: guia interativo de D&D para iniciantes, com rolador de dados, simulador de testes, quizzes com ranking e mural do Mestre. Node.js, Express e MySQL. |
 | **AgroPay** | Sistema criado para a feira de ciências do IF que automatiza o pagamento de trabalhadores rurais, com cálculos e relatórios. |
 
