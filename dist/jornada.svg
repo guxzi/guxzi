@@ -431,6 +431,7 @@
 <rect class="n_FIRST_QUARTILE" style="animation-delay: 15.89s" x="763" y="244" width="11" height="11" rx="2.5"/>
 <rect class="n_FOURTH_QUARTILE" style="animation-delay: 16.20s" x="777" y="160" width="11" height="11" rx="2.5"/>
 <rect class="n_FIRST_QUARTILE" style="animation-delay: 16.20s" x="777" y="174" width="11" height="11" rx="2.5"/>
+<rect class="n_NONE" style="animation-delay: 16.20s" x="777" y="188" width="11" height="11" rx="2.5"/>
 <g class="bando"><rect class="rastro" x="-52.4" y="112.6" width="3" height="3" rx="1" fill="#b794ff" style="animation-delay: 0.00s"/><rect class="rastro" x="-46.4" y="117.6" width="3" height="3" rx="1" fill="#ffffff" style="animation-delay: 0.35s"/><rect class="rastro" x="-52.4" y="122.6" width="3" height="3" rx="1" fill="#7fe3d2" style="animation-delay: 0.70s"/><rect class="rastro" x="-46.4" y="112.6" width="3" height="3" rx="1" fill="#b794ff" style="animation-delay: 1.05s"/><g transform="translate(-42.4,82.6) scale(0.5)"><g class="flutua" style="animation-delay: -0.90s"><g transform="translate(0,10)">
   <circle r="58" fill="url(#brilhoLavanda)" class="pulsa"/>
   <circle r="46" fill="none" stroke="#b794ff" stroke-opacity=".45" stroke-width="1.6" stroke-dasharray="2 5"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="40s" repeatCount="indefinite"/></circle>
