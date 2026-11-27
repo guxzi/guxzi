@@ -22,7 +22,7 @@ Fora do código: Critical Role toda semana (Mighty Nein no coração, com Essek,
 Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *ActRaiser*, ambientado na mitologia grega. Projeto em equipe da disciplina de Computação Gráfica.
 
 <a href="https://guxzi.github.io/the-guardian-nymph-site/"><img src="https://img.shields.io/badge/Site_do_jogo-guxzi.github.io-e8c46e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site do jogo"></a>
-<a href="https://github.com/guxzi/the-guardian-nymph-site/releases/latest/download/TheGuardianNymph.exe"><img src="https://img.shields.io/badge/Baixar_para-Windows-2f6fb5?style=for-the-badge" alt="Baixar para Windows"></a>
+<a href="https://github.com/guxzi/the-guardian-nymph-site/releases/latest/download/TheGuardianNymph.exe"><img src="./assets/baixar-windows.svg" alt="Baixar para Windows"></a>
 
 - Uma ninfa guardiã voa pelo vilarejo, atira nas criaturas e orienta a construção, enquanto os aldeões trabalham e rezam para gerar fé
 - Seis deusas (Ártemis, Afrodite, Atena, Héstia, Hera e Nike), cada uma com uma magia desenhada com o mouse e reconhecimento de formas feito do zero
