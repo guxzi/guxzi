@@ -21,12 +21,17 @@ Fora do código: Critical Role toda semana (Mighty Nein no coração, com Essek,
 
 Jogo de simulação e defesa de vilarejo inspirado no modo de construção de *ActRaiser*, ambientado na mitologia grega. Projeto em equipe da disciplina de Computação Gráfica.
 
-- Uma ninfa guardiã orienta a construção do vilarejo, enquanto os aldeões trabalham e rezam para gerar fé
-- Magias desenhadas com o mouse (Zeus, Poseidon, Atena), com reconhecimento de formas feito do zero, contra ondas de criaturas mitológicas
-- Templos dos deuses oferecem bênçãos que mudam a partida, no estilo de *Hades*
+<a href="https://guxzi.github.io/the-guardian-nymph-site/"><img src="https://img.shields.io/badge/Site_do_jogo-guxzi.github.io-e8c46e?style=for-the-badge&logo=githubpages&logoColor=white" alt="Site do jogo"></a>
+<a href="https://github.com/guxzi/the-guardian-nymph-site/releases/latest/download/TheGuardianNymph.exe"><img src="https://img.shields.io/badge/Baixar-Windows_(.exe)-2f6fb5?style=for-the-badge&logo=windows&logoColor=white" alt="Baixar para Windows"></a>
+
+- Uma ninfa guardiã voa pelo vilarejo, atira nas criaturas e orienta a construção, enquanto os aldeões trabalham e rezam para gerar fé
+- Seis deusas (Ártemis, Afrodite, Atena, Héstia, Hera e Nike), cada uma com uma magia desenhada com o mouse e reconhecimento de formas feito do zero
+- Templos das deusas oferecem bênçãos que mudam a partida, no estilo de *Hades*
+- Ondas de grifos, Górgonas, Minotauros e Centauros saem de quatro covis; para vencer, é preciso destruir todos
+- Tutorial em cenas, ruas de pedra com aldeões que passeiam, grade de construção e colisões
 - Modelos e animações feitos no Blender pelo grupo, com exportação automatizada para o Unity
 
-<sub>Repositório privado durante o desenvolvimento.</sub>
+<sub>O código fica privado durante o desenvolvimento; o jogo já pode ser baixado no site, num único .exe.</sub>
 
 ## Projetos
 
